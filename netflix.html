@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML AND JAVA</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #222;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            width: 350px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #333;
+            color: #fff;
+            font-size: 14px;
+        }
+        input[type="submit"],
+        button[type="reset"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #e50914;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover,
+        button[type="reset"]:hover {
+            background-color: #f40612;
+        }
+        button[type="reset"] {
+            background-color: #555;
+        }
+        button[type="reset"]:hover {
+            background-color: #666;
+        }
+        .reset-link {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #e50914;
+            text-decoration: none;
+            
+        }
+        .reset-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1> Sign up </h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="Email"> Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone no">Phone No.:</label>
+        <input type="tel" id="phone no." name="phone no." required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+        <input type="submit" value="Submit" onclick="formsubmit()"> <br><br>
+      
+        
+        
+        
+    </form>
+    <div style="position: absolute; top: 20px; left: 20px; display: flex; align-items: center;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" style="height: 40px; margin-right: 10px;">
+        <span style="font-size: 24px; font-weight: bold; color: #e50914;"></span>
+    </div>
+    <script src="javascripting.js"></script>
+
+
+    
+</body>
+</html>
